@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1{
+    color:seagreen;
+}
+#p-2{
+    background-color: maroon;
+    color: white;
+}
+
+#s-1{
+    color: rgba(131, 129, 234, 0.943);
+}
+
+#s-2{
+    background-color: aqua;
+}

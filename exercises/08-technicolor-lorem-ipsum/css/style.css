@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1{
+    color:rgb(116, 227, 140);
+    background-color: rgb(173, 21, 21);
+}
+
+#p-2{
+    background-color: rgb(13, 157, 28);
+    color: rgb(201, 25, 25);
+}
+#p-3{
+    background-color: rgb(12, 42, 131);
+    color: rgb(223, 175, 121);
+}
+
+#s-1{
+    color: rgba(248, 248, 248, 0.943);
+    background-color: rgb(29, 177, 44);
+}
+
+#s-2{
+    color: rgba(122, 155, 129, 0.943);
+}
+
+#s-3{
+    color: rgba(255, 255, 255, 0.943);
+}
+
+#s-4{
+    color: rgba(105, 60, 59, 0.943);
+}
+
+#s-5{
+    color: rgba(255, 255, 255, 0.943);
+}
+
+#s-6{
+    color: rgba(87, 68, 21, 0.943);
+}
+
+#s-7{
+    color: rgba(244, 175, 0, 0.943);
+}
+
+#s-8{
+    background-color: rgba(255, 1, 1, 0.943);
+}
+
+#s-9{
+    background-color: rgba(0, 41, 244, 0.943);
+}
+#s-10{
+    background-color: rgba(74, 150, 57, 0.943);
+}

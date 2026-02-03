@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration: line-through
+}
+
+#span-2 {
+    font-style: oblique;
+}
+
+#para-1 {
+    font-size: 11px;
+    text-align: center;
+}
+
+#anchor-1 {
+    text-decoration: none;
+    color: brown;
+    cursor: crosshair;
+}
+

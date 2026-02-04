@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: wheat;
+}
+
+.color-palette {
+    box-shadow: 6px 6px 12px #989898;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.color-palette-2 {
+    box-shadow: 6px 6px 12px #989898;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.color-palette-3 {
+    box-shadow: 6px 6px 12px #989898;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.color {
+    margin: 0px;
+    padding: 24px;
+}
+
+.color-2 {
+    margin: 0px;
+    padding: 24px;
+}
+
+.color-3 {
+    margin: 0px;
+    padding: 24px;
+}
+
+#cold-1 {
+    background-color: #3F88C5;
+}
+
+#cold-2 {
+    background-color: #44BBA4;
+}
+
+#cold-3 {
+    background-color: #393E41;
+    color: rgb(226, 225, 225);
+}
+
+#blaze-1 {
+    background-color: #F6F7EB;
+}
+
+#blaze-2 {
+    background-color: #F0EB90;
+}
+
+#blaze-3 {
+    background-color: #E94F37;
+}
+
+#forest-1 {
+    background-color: #00A878;
+}
+
+#forest-2 {
+    background-color: #D8F1A0;
+}
+
+#forest-3 {
+    background-color: #F3C178;
+}
+
+#cold {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#blaze {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#forest {
+    font-style: italic;
+    text-decoration: underline;
+}

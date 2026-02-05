@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+span {
+    background-color: yellow;
+    display: block;
+}
+
+div {
+    background-color: aqua;
+    display: inline-block;
+    width: 200px;
+    margin: 12px;
+    padding: 12px;
+}
+
+p {
+    background-color: red;
+    width: 400px;
+}
+
+#media-and-text,
+#three-columns {
+    background-color: red;
+    display: block;
+    width: auto;
+}
+
+#media {
+    height: 561px;
+    width: 400px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+#text {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 24px;
+    font-size: 48px;
+}
+
+.columns {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+

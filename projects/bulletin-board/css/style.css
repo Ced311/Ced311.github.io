@@ -1,0 +1,78 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it-1 {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.post-it-2 {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px;
+    margin: 20px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.post-it-3 {
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.post-it-4 {
+    background-color: rgb(255, 255, 255);
+    width: 390px;
+    height: 90px;
+    box-shadow: 5px 5px 5px;
+    margin: 15px;
+    vertical-align: middle;
+    font-family: cursive;
+}
+
+.red {
+    background-color: crimson;
+    text-align: center;
+    text-align: center;
+}
+
+.gold {
+    background-color: gold;
+    text-align: right;
+    text-align: left;
+}
+
+.green {
+    background-color: greenyellow;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.navy {
+    background-color: navy;
+    text-align: center;
+}
+
+#id-1 {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

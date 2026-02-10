@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+p {
+    border: red;
+    border-width: 3px; 
+    border-style: dashed;
+    border-top: 10px outset blue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 24px;
+    padding: 10px 20px;
+}
+/* dont use negative value margins. You can also use the rule above
+like this at least for the first three values. border: 3px dashed red;.
+You can use margin like this for all four sides of the border
+.Ex. margin: 24px 12px 100px 200px */
+
+div {
+    margin: 48px;
+    border: 10px dashed rgb(255, 255, 255);
+    padding: 24px;
+    background-color: lightblue;
+    border-radius: 400px;
+   
+}
+
+

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+#sidebar h4 {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+#sidebar .edit {
+    color: orange;
+    font-style: italic;
+}
+
+#sidebar .chapter {
+    
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#sidebar div .chapter {
+    font-style: italic;
+    color: red;
+}

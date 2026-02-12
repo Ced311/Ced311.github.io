@@ -8,14 +8,14 @@ body {
 }
 
 .for-1 {
-        width: 80%;
-        max-width: 800px;
-        background-color: crimson;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border-radius: 50%;
-        margin-bottom: 20px;
+    width: 80%;
+    max-width: 800px;
+    background-color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
         
 }
 

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#pre {
+    color: rgb(226, 101, 226);
+    background-color: rgb(16, 16, 160);
+    border-radius: 24px;
+    margin: 20px;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: aqua;
+    box-shadow: pink 5px 5px 2px;
+    
+}

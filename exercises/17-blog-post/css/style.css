@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.for-1 {
+        width: 80%;
+        max-width: 800px;
+        background-color: crimson;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        
+}
+
+.for-2 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+      
+}
+
+.for-3 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+}
+
+img {
+    width: 100%;
+}
+
+#h1 {
+    text-align: center;
+}
+
+#h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+#h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: crimson;
+}

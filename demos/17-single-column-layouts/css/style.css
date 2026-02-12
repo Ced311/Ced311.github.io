@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 80%;
+    max-width: 800px;
+    background-color: aqua;
+}
+
+.single-column-2 {
+    width: 80%;
+    max-width: 800px;
+    background-color: crimson;
+    margin-left: auto;
+}
+
+.single-column-3 {
+    width: 80%;
+    max-width: 800px;
+    background-color: orange;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    width: 100%
+}

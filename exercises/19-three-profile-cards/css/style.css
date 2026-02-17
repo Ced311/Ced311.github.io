@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    width: 90vw;
+    max-width: 900px;
+    margin: 0px auto;
+
+}
+
+.card {
+border: 35px solid crimson;
+margin: 34px 0px;
+padding: 48px;
+text-align: center;
+
+}
+
+.card h3 {
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 20px
+}
+
+.card p {
+    font-size: 28px;
+}
+
+#card-container {
+    display: flex;
+    gap: 35px;
+}
+
+.button {
+    display: block;
+    font-size: 24px;
+    color: rgb(139, 16, 16);
+    margin: 24px 0px 0px;
+    border: solid;
+    border-radius: 15px;
+    border-width: 4px;
+    border-style: inset;
+}

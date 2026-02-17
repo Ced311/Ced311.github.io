@@ -15,11 +15,11 @@ body {
 }
 
 .card {
-border: 35px solid crimson;
-margin: 34px 0px;
-padding: 48px;
-text-align: center;
-
+    border: 36px solid crimson;
+    margin: 30px 0px;
+    padding: 48px;
+    text-align: center;
+    box-shadow: gray 10px 10px 10px;
 }
 
 .card h3 {
@@ -39,13 +39,13 @@ text-align: center;
     gap: 35px;
 }
 
-.button {
-    display: block;
+#button {
     font-size: 24px;
-    color: rgb(139, 16, 16);
+    color: rgb(235, 82, 82);
     margin: 24px 0px 0px;
     border: solid;
     border-radius: 15px;
     border-width: 4px;
     border-style: inset;
+    background-color: rgb(0, 0, 0);
 }

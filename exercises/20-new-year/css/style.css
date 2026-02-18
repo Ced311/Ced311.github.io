@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    width: 90vw;
+    max-width: 900px;
+    margin: 0px auto;
+
+}
+
+.card {
+    border: 36px solid rgb(34, 34, 34);
+    margin: 30px 0px;
+    padding: 48px;
+    text-align: center;
+    box-shadow: gray 10px 10px 10px;
+}
+
+.card h3 {
+    border-bottom: 3px red solid;
+    border-top: 3px rgb(255, 0, 0) solid;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 20px
+    
+}
+
+#pic {
+    width: 200px;
+}
+
+#pic-1 {
+    width: 300px;
+}
+
+p {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    margin: 0px;
+}
+
+#card-container {
+    display: flex;
+    gap: 35px;
+}

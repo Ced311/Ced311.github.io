@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Pinyon+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,104 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#single-column-layout {
+    background-image: url(../images/feild.jpg);
+    width: 80%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center center;
+    height: 110vh;
+        
+}
+
+#content {
+    text-align: center;
+}
+
+#names {
+    color: black;
+    padding-top: 50px;
+   
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.other {
+    color: white;
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#title {
+    font-size: 80px;
+    color: white;
+    text-decoration: underline;
+    font-style: oblique;
+    margin: 20px;
+    text-decoration-color: crimson;
+}
+
+#p-1 {
+    font-size: larger;
+    padding: 10px;
+}
+
+#image-container {
+    display: flex;
+    align-items: center;
+
+}
+
+#vs {
+    font-size: 64px;
+    font-weight: 800;
+    color: crimson;
+    text-shadow: 3px 3px white;
+}
+
+.date {
+    color: crimson;
+    font-size: 48px;
+}
+
+.images {
+    min-width: 100px;
+    height: 400px;
+    
+}
+
+#p-2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#button-container {
+    display: flex;
+    gap: 100px;
+    align-content: center;
+    
+}
+
+.buttons {
+    font-size: xx-large;
+    border: 3px solid black;
+    background: linear-gradient(red, white );
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+#contact {
+    text-decoration: underline ;
+    color: black;
+    padding-bottom: 80px;
 }

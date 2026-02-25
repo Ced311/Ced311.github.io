@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#head-container {
+    background-image: url("../images/quino-al-j-vgwo8di98-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+
+.head-items {
+    color: white;
+    text-align: center;
+}
+
+#navbar-container {
+    color: black;
+}
+
+.button {
+    color: black;
+}

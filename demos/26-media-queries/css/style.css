@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; is another option other than flex-direction*/
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px
+}
+
+
+
+#single-column-layout {
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+#single-column-layout h1 {
+    font-size: 64px;
+    text-align: center;
+    
+}
+
+#basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+}
+
+#basic-grid-gallery img {
+    width: 100%;   
+}
+
+/* this is a breakpoint below */
+@media screen and (max-width: 640px) {
+    body {
+        background-color: red;
+    }
+
+    #single-column-layout h1 {
+        font-size: 44px;
+    }
+}
+
+/* 2nd breakpoint */
+@media screen and (max-width: 450px) {
+    body {
+        background-color: lightblue;
+    }
+
+    #basic-grid-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #single-column-layout h1 {
+        font-size: 32px;
+    }
+        /* When using flex direction dont use justify content to center items.It
+        no longer aligns things horizontally it aligns vertically. Use align 
+        items instead. */
+
+}
+
+/* This break point allows you to change certain properties at a certian px
+size. In this instance it's the bk color */
+

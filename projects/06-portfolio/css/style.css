@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-container { 
+    max-width: 2000px;
+    background-image: url("../images/urban-hi-res.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+#hero-container h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+#nav {
+    max-width: 2000px;
+    background-color: rgb(58, 98, 116);
+    color: white;
+    padding-right: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.link {
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+#title {
+    color: white;
+}
+
+#button {
+    background-color: rgba(255, 255, 255, 0.498);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 5px;
+    color: blue;
+    font-size: 28px;
+}
+
+.gallery-content {
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#column {
+    margin: 0px auto;
+}
+
+.card {
+    border: 10px solid rgb(216, 216, 226);
+    margin: 34px 0px;
+    background-color: rgb(28, 28, 36);
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 0px;
+    color: white;
+    border-bottom: solid 4px;
+    padding: 10px;
+}
+
+.card .b {
+    color: rgb(72, 72, 127);
+
+    text-decoration: none;
+}
+
+#card-container {
+    display: flex;
+    gap: 35px;
+    background-color: rgb(120, 144, 156);
+    max-width: 2000px;
+    justify-content: center;
+    
+}
+
+#top {
+    text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+    .gallery-content {
+        grid-template-columns: 1fr;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #single-column-layout h1 {
+        font-size: 32px;
+    }
+
+    #hero-container h1 {
+        font-size: 48px;
+    }
+
+    #button {
+        font-size: 24px;
+    }
+
+}
